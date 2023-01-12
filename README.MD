@@ -2,7 +2,7 @@
 
 <br/>
 
-![Firebank page gif](./readme-files/firebank%20page%20gif.gif)
+<img src="./readme-files/firebank%20page%20gif.gif" width="750">
 
 <br/>
 
