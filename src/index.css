@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --black-gradient: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+.bg-black-gradient {
+    background: linear-gradient(
+      144.39deg,
+      #ffffff -278.56%,
+      #6d6d6d -78.47%,
+      #11101d 91.61%
+    );
+  }
+
+.sidebar {
+    -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+
+@-webkit-keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(100px);
+      transform: translateY(100px);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+}
+  
+@keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(100px);
+      transform: translateY(100px);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+}
+
+.bg-discount-gradient {
+    background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+  }
+  
+.text-gradient {
+
+    background: radial-gradient(
+      64.18% 64.18% at 71.16% 35.69%,
+      #f7defa 0.89%,
+      #f0bef5 17.23%,
+      #e69df0 42.04%,
+      #d17deb 55.12%,
+      #ca5ce6 71.54%,
+      #b533cf 100%
+
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+}
+
+.bg-purple-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #ad47ac 0.89%,
+    #a640a6 17.23%,
+    #7e2d7e 42.04%,
+    #7e2d7e 55.12%,
+    #642764 71.54%,
+    #4b204b 100%
+  );
+}
+
+.pink__gradient {
+  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+  filter: blur(900px);
+}
+
+.white__gradient {
+  background: rgba(255, 255, 255, 0.6);
+  filter: blur(750px);
+}
+
+.purple__gradient {
+  background: linear-gradient(180deg, rgba(219, 165, 255, 0) 0%, #502176 100%);
+  filter: blur(123px);
+}
+
+.feature-card:hover {
+  background: var(--black-gradient);
+  box-shadow: var(--card-shadow);
+}
+
+.feedback-card {
+  background: transparent;
+}
+
+.feedback-card:hover {
+  background: var(--black-gradient);
+}
+
+.feedback-container .feedback-card:last-child {
+  margin-right: 0px;
+}
+
+.bg-black-gradient-two {
+  background: linear-gradient(
+    -168.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+}
+
+.box-shadow {
+  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+.shadow-button{
+  box-shadow: 0px 0px 10px 0px #be81d4;
+}
+
+.animate__animated.animate__shakeY{
+  --animate-duration: 5s;
+}
+
+/*Circle*/
+
+.circle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-one{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 22rem;
+  height: 22rem;
+  border: solid 0.4rem rgb(61, 61, 61);
+  border-radius: 100%;
+}
+
+.circle-two{
+  position: absolute;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 22rem;
+  height: 22rem;
+  border: solid 0.4rem rgb(173, 26, 202);
+  border-radius: 100%;
+  border-left-color: rgb(61, 61, 61);
+  border-top-color: rgb(61, 61, 61);
+}
+
+.circle-three{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 17rem;
+  height: 17rem;
+  border: solid 0.4rem rgb(61, 61, 61);
+  border-radius: 100%;
+}
+
+.circle-four{
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  width: 17rem;
+  height: 17rem;
+  border: solid 0.4rem rgb(173, 26, 202);
+  border-radius: 100%;
+  border-left-color: rgb(61, 61, 61);
+  border-right-color: rgb(61, 61, 61);
+}
+
+/*circle animations*/
+
+.rotation{
+  animation: rotation-animation 10s linear infinite;
+
+}
+
+.reverse-rotation {
+  animation: reverse-rotation-animation 10s linear infinite;
+}
+
+@keyframes rotation-animation {
+0% {
+  transform: rotate(0);
+    }
+100% {
+  transform: rotate(720deg); /**/
+    }
+}
+
+@keyframes reverse-rotation-animation {
+0% {
+  transform: rotate(0);
+    }
+100% {
+  transform: rotate(-360deg); /**/
+    }
+}
