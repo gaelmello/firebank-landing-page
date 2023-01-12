@@ -6,9 +6,11 @@
 
 <br/>
 
-## About this project ...
+🔗 **Check out this project now by visiting this link:** https://gaelmello.github.io/firebank-landing-page/
 
 <br/>
+
+## About this project ...
 
 The idea of the project is to present the essential pillars of an attractive professional **landing page that has the potential to impact your client.**
 
@@ -20,15 +22,11 @@ However, **the entire code and structure of the page can be reused** to promote 
 
 ## Why?
 
-<br/>
-
 This project is part of my personal portfolio, so if you are able to provide any feedback on the project, code, page structure, or any other improvements, it would be amazing.
 
 <br/>
 
 ## Getting Started
-
-<br/>
 
 ### Instaling
 <br/>
